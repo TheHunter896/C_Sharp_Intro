@@ -26,18 +26,24 @@ namespace CsCourseUdemy
             var generic = new List<string>() { };
 
             //Multidimensional arrays are also supported
-            int[,,] arrayName = new int[,,] { };
+            int[,] arrayName = new int[,] { { }, { } }; // 1 comma, 2d, 2 commas, 3d, etc.
             //You can initialize it like in C++
-            int[,,] multiArray = new int[,,]
+            int[,] multiArray = new int[,]
             {
-                {
-                    { }
-                },
-                {
-                    { }
-                }
+                { },
+                { },
             };
+            //To access it
+            multiArray[0, 0] = 1; //Element 0, 0
 
+            //You can also specify multi dim arrays like so
+            string[,] array2D = new string[3, 2];
+
+            //A jagged array is a multi dimensional arrays where the arrays inside can be different sizes, in the previous example they are all the same size.
+            int[][] jaggedArray = new int[3][];
+            jaggedArray[0] = new int[5];
+            jaggedArray[1] = new int[3];
+            jaggedArray[2] = new int[2];
         }
 
     }
