@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_course_udemy", "c_sharp_course_udemy\c_sharp_course_udemy.csproj", "{6348E0A1-880F-4917-8C5A-833537388CB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCourseUdemy", "c_sharp_course_udemy\CsCourseUdemy.csproj", "{6348E0A1-880F-4917-8C5A-833537388CB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
